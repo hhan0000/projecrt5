@@ -34,7 +34,7 @@ let init = () => {
     ctx.font = `${fontSize}px Arial`;
     ctx.textAlign = 'center';
 
-    ctx.fillText('青年码农', width / 2, height / 2 + fontSize / 4);
+    ctx.fillText('你好贝贝', width / 2, height / 2 + fontSize / 4);
 
     const data = ctx.getImageData(0, 0, width, height).data;
     const data32 = new Uint32Array(data.buffer);
